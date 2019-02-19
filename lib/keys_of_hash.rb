@@ -6,5 +6,5 @@ self.map do |key, value|
   key
 end
 end 
- end
+ end.compact
 end
