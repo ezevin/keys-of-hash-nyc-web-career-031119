@@ -3,7 +3,7 @@ class Hash
     # code goes here
 self.map do |key, value|
   if arguments.include?(value)
-  key.map.compact
+  key
 end
 end 
  end
