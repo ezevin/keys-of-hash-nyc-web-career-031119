@@ -5,6 +5,6 @@ self.map do |key, value|
   if arguments.include?(value)
   key
 end
-end 
- end.compact
+end.compact
+ end
 end
